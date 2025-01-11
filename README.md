@@ -3,7 +3,7 @@ Our python code lets you play Tic-Tac-Toe in two ways:
   1. One Player Mode: You against the computer with a smart opponent.
   2. Two Player Mode: Play against a friend.
 The computer's moves in the one-player mode are determined using the minimax algorithm,  making it a challenging opponent.
-**How to Play:** 
+# **How to Play** 
 1. Choose the game mode: 
   • One Player (1). 
   • Two Players (2). 
@@ -11,7 +11,7 @@ The computer's moves in the one-player mode are determined using the minimax alg
 3. Each turn, a player picks a spot on the board to place their 'X' or 'O'. 
 4. The game ends when someone wins or the board is full, resulting in a draw. 
 5. After the game ends you can choose to play again or exit. 
-**Functions**: 
+# Functions
 1. printStart(): 
   • Shows you where each number corresponds on the Tic-Tac-Toe board. 
 2. printBoard(board): 
@@ -35,7 +35,7 @@ The computer's moves in the one-player mode are determined using the minimax alg
   • Smartly evaluates the best move for the computer. 
 11. Game Loop: 
   • Manages the game flow, taking turns and checking for a winner. 
-**Important Points** 
+# **Important Points** 
   • In our code we used os and random libraries for clearing the screen and generating random 
     numbers. 
   • It handles mistakes during player moves. 
